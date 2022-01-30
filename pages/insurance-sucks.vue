@@ -3,10 +3,10 @@
     :options="[{ text: 'What if you die?', to: '/what-if-you-die' }]"
   >
     <p>
-      Yes. Our system of health insurance in the US does suck. It is complicated
-      and expensive. Proper price shopping is often almost impossible, because
-      insurance confuses the question of “how much will this medical thing
-      cost.”
+      Yes. Our system of health insurance in the USA does suck. It is
+      complicated and expensive. Proper price shopping is often almost
+      impossible, because insurance confuses the question of “how much will this
+      medical thing cost.”
     </p>
     <p>
       My plan involves making it illegal for health insurance companies to
