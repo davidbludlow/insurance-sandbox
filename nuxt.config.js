@@ -1,3 +1,5 @@
+import colors from 'vuetify/es5/util/colors';
+
 export default {
   /*
    ** Headers of the page
@@ -37,7 +39,12 @@ export default {
    ** Doc: https://nuxtjs.org/docs/2.x/directory-structure/plugins
    */
   plugins: [],
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify', '@nuxtjs/pwa', '@nuxtjs/workbox'],
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@nuxtjs/vuetify',
+    '@nuxtjs/pwa',
+    '@nuxtjs/workbox',
+  ],
   pwa: {
     meta: {
       theme_color: 'rgb(25, 118, 210)',
@@ -59,4 +66,22 @@ export default {
   //     },
   //   ],
   // },
+
+  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
+  vuetify: {
+    theme: {
+      dark: true,
+      themes: {
+        dark: {
+          primary: colors.blue.darken2,
+          accent: colors.grey.darken3,
+          secondary: colors.amber.darken3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3,
+        },
+      },
+    },
+  },
 };

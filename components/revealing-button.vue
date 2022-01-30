@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
-    <v-btn-toggle v-model="buttonToggleModel" dense>
-      <v-btn color="primary" class="ma-4">
+    <v-btn-toggle v-model="buttonToggleModel" dense class="ma-4">
+      <v-btn color="primary">
         {{ text }}
       </v-btn>
     </v-btn-toggle>
