@@ -1,7 +1,7 @@
 <template>
-  <div class="text-center">
-    <v-btn-toggle v-model="buttonToggleModel" dense class="ma-4">
-      <v-btn color="primary">
+  <div class="text-center information-page">
+    <v-btn-toggle v-model="buttonToggleModel" small dense class="ma-4">
+      <v-btn color="primary" small>
         {{ text }}
       </v-btn>
     </v-btn-toggle>
@@ -32,6 +32,7 @@ export default {
 <style scoped>
 .revealed-background {
   background: rgba(123, 123, 123, 0.25);
+  padding: 0.5em;
 }
 /* .v-btn {
   height: 36px;

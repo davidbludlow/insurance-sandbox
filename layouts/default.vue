@@ -5,3 +5,9 @@
     </v-main>
   </v-app>
 </template>
+
+<style>
+.infomation-page {
+  max-width: 900px;
+}
+</style>
