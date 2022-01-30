@@ -1,13 +1,13 @@
 <template>
-  <ForkInTheRoad
+  <ForkInTheRoad class="text-center"
     :options="[
       {
         text: 'Our system of health insurance sucks',
-        route: '/insurance-sucks',
+        to: '/insurance-sucks',
       },
       {
         text: 'Why does our health insurance needs fixing?',
-        route: '/the-problem',
+        to: '/the-problem',
       },
     ]"
   >

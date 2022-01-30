@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="text-center">
+    <v-row>
       <v-col cols="12" class="mb-4">
         <slot></slot>
       </v-col>
@@ -10,7 +10,7 @@
           <v-btn
             v-for="(option, i) in options"
             :key="i"
-            :to="option.route"
+            :to="option.to"
             nuxt
             color="primary"
             class="ma-4"
@@ -28,7 +28,7 @@
 // import { PropType } from 'vue';
 
 export default {
-  name: 'HelloWorld',
+  name: 'ForkInTheRoad',
   // as PropType<ForkOption[]>
   props: { options: { type: Array, required: true } },
 };
