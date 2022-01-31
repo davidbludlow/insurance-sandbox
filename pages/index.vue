@@ -1,5 +1,6 @@
 <template>
-  <ForkInTheRoad class="text-center"
+  <ForkInTheRoad
+    class="text-center"
     :options="[
       {
         text: 'Our system of health insurance sucks',

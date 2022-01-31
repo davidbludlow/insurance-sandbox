@@ -18,7 +18,7 @@
         things. They will not care what medical thing you use them for, they
         will only care if the expense is for a medical thing or not.
         <revealing-button text="Where will the money come from?">
-          Just keep reading. You will see further down this bulleted list.
+          Just keep reading. You will see, further down this bulleted list.
         </revealing-button>
       </li>
       <li>
