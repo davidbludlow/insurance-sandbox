@@ -7,7 +7,7 @@
 </template>
 
 <style>
-.infomation-page {
+.information-page {
   max-width: 900px;
 }
 :root .v-btn {

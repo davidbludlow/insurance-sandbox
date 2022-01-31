@@ -1,5 +1,5 @@
 <template>
-  <v-container class="infomation-page">
+  <v-container class="information-page">
     <v-row>
       <v-col cols="12" class="mb-4">
         <slot></slot>

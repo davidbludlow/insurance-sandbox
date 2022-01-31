@@ -25,7 +25,7 @@
         It will be made illegal for medical providers to offer cheaper prices to
         customers just because they have a certain insurance company. This will
         destroy the concept of being “in-network.” Customers will be able to
-        more freely choose where they recieve medical care. And, most
+        more freely choose where they receive medical care. And, most
         importantly, it will become way more simple to price shop.
         <revealing-button text="What do you mean by “in-network?”">
           With most current medical insurance (unless you get the
@@ -33,7 +33,7 @@
           and if you don't use one of those doctors, then your insurance will
           either not work at all for your doctor's visit or it will not work as
           well. Not only does this limit your choices of doctors that you can
-          afford to see, but it also makes it very hard for you to call arround
+          afford to see, but it also makes it very hard for you to call around
           to figure out which doctor is the cheapest. If you ask how much a
           visit will cost, they can't answer your question until they have
           determined wither they are in-network for your particular insurance or
@@ -53,7 +53,7 @@
         insurance company
         <revealing-button text="why 2.5%?">
           Because that is the standard price that normal credit card companies
-          typically charge busnesses for processing any type of credit card
+          typically charge businesses for processing any type of credit card
           transaction. Remember, in this plan, using medical insurance will be
           about as easy as using a credit card.
         </revealing-button>
@@ -61,7 +61,7 @@
       <li>
         Most of your premium will go into your Medical Insurance Balance (which
         is kinda like a Flexible Spending Account, only without a stupidly
-        vauge-sounding name). When you use you use your medical insurance card
+        vague-sounding name). When you use you use your medical insurance card
         to buy some medical thing, it will take the money from your Medical
         Insurance Balance.
       </li>
