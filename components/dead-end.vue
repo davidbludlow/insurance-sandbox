@@ -7,9 +7,14 @@
 
       <v-col class="mb-5" cols="12">
         <v-row justify="center">
-          <v-btn @click="goBack" nuxt color="primary" class="ma-4">
-            Go Back
+          <v-btn
+            @click="goBack"
+            :disabled="canGoBack"
+            color="primary"
+            class="ma-4"
+            >Go Back
           </v-btn>
+          <v-btn to="/" nuxt color="primary" class="ma-4">Start Over </v-btn>
         </v-row>
       </v-col>
     </v-row>
@@ -22,6 +27,11 @@ export default {
   methods: {
     goBack() {
       this.$router.back();
+    },
+  },
+  computed: {
+    canGoBack() {
+      return !!this.$nuxt.context.from;
     },
   },
 };
