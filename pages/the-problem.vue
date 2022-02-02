@@ -1,5 +1,8 @@
 <template>
-  <ForkInTheRoad :options="[]">
+  <!-- <ForkInTheRoad :options="[]">
     <p>Todo: write this page</p>
-  </ForkInTheRoad>
+  </ForkInTheRoad> -->
+  <DeadEnd>
+    <p>Todo: write this page</p>
+  </Deadend>
 </template>
