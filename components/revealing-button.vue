@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center information-page">
+  <div class="row justify-center">
     <v-btn-toggle v-model="buttonToggleModel" small dense class="ma-4">
       <v-btn color="primary" small>
         {{ text }}
