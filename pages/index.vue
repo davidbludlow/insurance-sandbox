@@ -7,7 +7,7 @@
         to: '/insurance-sucks',
       },
       {
-        text: 'Why does our health insurance needs fixing?',
+        text: 'Why does our health insurance need fixing?',
         to: '/the-problem',
       },
       {
