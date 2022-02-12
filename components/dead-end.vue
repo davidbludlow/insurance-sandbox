@@ -8,8 +8,8 @@
       <v-col class="mb-5" cols="12">
         <v-row justify="center">
           <v-btn
+            :v-if="!canGoBack"
             @click="goBack"
-            :disabled="canGoBack"
             color="primary"
             class="ma-4"
             >Go Back
